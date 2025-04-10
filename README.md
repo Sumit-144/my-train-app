@@ -44,31 +44,30 @@ A full-stack web application for booking train tickets built with **Next.js**, *
 ## Project Structure
 
 my-train-app/
-├── 📁 server/ # Backend Server (Express.js)
-│ ├── 📁 config/
-│ │ └── db.js # PostgreSQL database configuration
-│ ├── 📁 middleware/
-│ │ └── auth.js # JWT authentication middleware
-│ ├── 📁 routes/
-│ │ ├── auth.js # Authentication routes (signup/login)
-│ │ └── booking.js # Booking management routes
-│ ├── 📁 scripts/
-│ │ └── seedSeats.sql # Database seeding script for seats
-│ ├── .env # Environment variables 🔐
-│ ├── server.js # Server entry point
-│ ├── package.json # Backend dependencies
-│ └── package-lock.json
-│
-└── 📁 client/ # Frontend Client (Next.js)
-├── 📁 components/
-│ └── SeatGrid.js # Interactive seat grid component
-├── 📁 pages/
-│ ├── index.js # Main dashboard page
-│ ├── login.js # User login page
-│ └── signup.js # User registration page
-├── 📁 public/ # Static assets
-├── package.json # Frontend dependencies
-└── package-lock.json
+├── 📁 server/  <!-- Backend Server (Express.js) -->
+│   ├── 📁 config/
+│   │   └── db.js  <!-- PostgreSQL database configuration -->
+│   ├── 📁 middleware/
+│   │   └── auth.js  <!-- JWT authentication middleware -->
+│   ├── 📁 routes/
+│   │   ├── auth.js  <!-- Authentication routes (signup/login) -->
+│   │   └── booking.js  <!-- Booking management routes -->
+│   ├── 📁 scripts/
+│   │   └── seedSeats.sql  <!-- Database seeding script for seats -->
+│   ├── .env  <!-- Environment variables 🔐 -->
+│   ├── server.js  <!-- Server entry point -->
+│   ├── package.json  <!-- Backend dependencies -->
+│   └── package-lock.json
+└── 📁 client/  <!-- Frontend Client (Next.js) -->
+    ├── 📁 components/
+    │   └── SeatGrid.js  <!-- Interactive seat grid component -->
+    ├── 📁 pages/
+    │   ├── index.js  <!-- Main dashboard page -->
+    │   ├── login.js  <!-- User login page -->
+    │   └── signup.js  <!-- User registration page -->
+    ├── 📁 public/  <!-- Static assets -->
+    ├── package.json  <!-- Frontend dependencies -->
+    └── package-lock.json
 
 
 ## Prerequisites
